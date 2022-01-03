@@ -4,4 +4,4 @@ Site desenvolvido por mim para um projeto escolar, site de vendas de fantasias p
 Website developed by me for a school project. It's a shopping website for pet costumes.
 
 On progress...
-Reminder: Adicionar a pfp no bando de dados.
+Reminder: Adicionar a pfp no banco de dados.
