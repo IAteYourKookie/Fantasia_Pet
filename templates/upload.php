@@ -1,14 +1,18 @@
 <?php
+    include('header.php');
     include('conexao.php');
     if(!isset($_SESSION)) 
   { 
       session_start(); 
   }
-  echo "kkkkkkkkkkkk";
-  echo $_SESSION['login'];
+  
+  echo "</br> <div>";
+  print_r($_SESSION);
+  echo "</div>" ;
 
   if (isset($_REQUEST['imagem'])){
     $imagem=($_POST['imagem']);
+    echo "NAO ESTA CHEGANDO NESSA PARTE DO CODIGO";
     
     if($imagem != "none"){
         $emaillogin = $_SESSION['login'];

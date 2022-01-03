@@ -2,10 +2,9 @@
     if(!isset($_SESSION)) 
     { 
         session_start();
-        $_SESSION['login'] = "";
     } 
     
-    include('templates/conexao.php');
+    include('conexao.php');
     if (isset($_REQUEST['emaillogin'])){
         $emaillogin=($_REQUEST['emaillogin']);
         $pswlogin=($_REQUEST['pswlogin']);
