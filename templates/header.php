@@ -45,7 +45,7 @@
   </script>
       
 </head>
-<header style="top:0px;">
+<header style="top:200px;">
   <!------------------Top Navigation Bar------------------>
       <div id="home"><h1 class="logo" id="logo"><img id="img" src="imagens/header.png" class="imgheader">Fantasia Pet</h1>
 
@@ -60,7 +60,7 @@
       <div class="align-right" style="position: relative; padding-right: 30px; left:55vw;"><button id="loginbtn" style="position:static;" class="buttonlogin" onclick="openForm()"><span id="ini" style="font-size:20px;" id="fontola">Olá, Entre aqui</span><br><span id="fontcadastro" style="font-size:15px; display: block; margin-top: 0px;"> ou faça seu cadastro</span> </button>
   <!-------------------- Form Login -------------------->
       <div class="form-popup" id="myForm">
-        <form action="login.php" class="form-container">
+        <form action="" class="form-container">
           <p class="logintext">Login</p>
           <p style="float: left;">
           <label for="email" style="float: left;">Email</label>

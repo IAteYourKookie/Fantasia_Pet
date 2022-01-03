@@ -1,7 +1,8 @@
 <?php
     if(!isset($_SESSION)) 
     { 
-        session_start(); 
+        session_start();
+        $_SESSION['login'] = "";
     } 
     
     include('templates/conexao.php');
@@ -26,7 +27,7 @@
                 $id= mysqli_fetch_array($sql);
                 $name=$id['name'];
                 $_SESSION['name'] = $name;
-                //echo "<script>location.replace('perfil.php');</script>";
+                echo "<script>location.replace('perfil.php');</script>";
             }
             else {
                 // senha ou usuario nao confere
@@ -49,5 +50,6 @@
                 echo "<script> alert('usuario não confere') </script>";
             }
         mysqli_close($bdOpen);
+
     }
 ?>
