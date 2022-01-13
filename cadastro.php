@@ -5,12 +5,13 @@
     include_once('templates/login.php');
     include_once('templates/conexao.php');
             if(isset($_REQUEST['psw'])){
-                $psw=($_REQUEST['psw']);
-                $pswCheck=($_REQUEST['pswCheck']);
+                $psw=hash('md5',($_REQUEST['psw']));
+                $pswCheck=hash('md5',($_REQUEST['pswCheck']));
 
                 if ($pswCheck==$psw){
                     $name=($_REQUEST['name']);
                     $email=($_REQUEST['email']);
+                    $email=filter_var($email,FILTER_SANITIZE_EMAIL);
 
                     //Verificaçao de usuario existente
                     $usuario_existe = mysqli_query($bdOpen, "SELECT email FROM usuario WHERE email='$email'");
@@ -22,6 +23,7 @@
                     } else {
                         mysqli_query($bdOpen,"insert into usuario(name,email,psw,pfp,id) values('$name','$email', '$psw','',NULL)");
                         $response["success"] = 1;
+                        echo "<script>alert('Cadastrado com sucesso');</script>";
                     }
 
                     mysqli_close($bdOpen);

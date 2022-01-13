@@ -7,7 +7,7 @@
     include('conexao.php');
     if (isset($_REQUEST['emaillogin'])){
         $emaillogin=($_REQUEST['emaillogin']);
-        $pswlogin=($_REQUEST['pswlogin']);
+        $pswlogin=hash('md5',($_REQUEST['pswlogin']));
         $response=[];
 
         $query = mysqli_query($bdOpen,"SELECT psw FROM usuario WHERE email='$emaillogin'");
