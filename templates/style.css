@@ -38,6 +38,12 @@ html {
   color: #E6B1B1;
 }
 
+.avatar{
+  border-radius: 50%;
+  height: 150px;
+  width: auto;
+}
+
 footer {
     text-align: center;
     padding: 3px;

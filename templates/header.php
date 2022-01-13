@@ -45,7 +45,7 @@
   </script>
       
 </head>
-<header style="top:200px;">
+<header style="top:0px;">
   <!------------------Top Navigation Bar------------------>
       <div id="home"><h1 class="logo" id="logo"><img id="img" src="imagens/header.png" class="imgheader">Fantasia Pet</h1>
 
