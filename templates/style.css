@@ -168,6 +168,7 @@ body {
   display: grid;
   position: relative;
 }
+
 .contentbody {
   background-blend-mode: multiply;
   background-size: cover;
