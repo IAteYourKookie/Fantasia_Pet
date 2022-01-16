@@ -39,9 +39,33 @@ html {
 }
 
 .avatar{
+  margin-top: 30px;
   border-radius: 50%;
   height: 150px;
-  width: auto;
+  width: 150px;
+  object-fit: cover;
+  float:center;
+  position: relative;
+}
+
+
+.user{
+  font-family: 'Roboto', sans-serif;
+  color: #E6B1B1;
+  float:center;
+  position: inherit;
+}
+
+.perfilbox {
+  max-width: 450px;
+  border-radius: 25px;
+  padding: 30px;
+  background-color: white;
+  padding-top: 20px;
+  background-color:#ffffff;
+  float:center;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 footer {
@@ -63,6 +87,7 @@ footer {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
 
 .opc{
   font-size:22px;

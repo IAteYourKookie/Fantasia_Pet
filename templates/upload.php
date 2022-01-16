@@ -10,7 +10,30 @@
   print_r($_SESSION);
   echo "</div>" ;
 
-  if (isset($_FILES['imagem'])){
+  if (isset($_FILES['arquivo'])) {
+    $msg = false;
+
+    $arquivo = strtolower(substr($_FILES['arquivo']['name'], -4));
+    $newarquivo = md5(time()) . $arquivo;
+    $dir = "uploads/";
+
+    move_uploaded_file($_FILES['arquivo']['tmp_name'], $dir . $newarquivo);
+
+
+    $sql = "INSERT INTO arquivo(id, arquivo, data) VALUES(null, '$newarquivo', NOW());";
+    if (mysqli_query($dbOpen, $sql)) {
+        $msg = "Arquivo enviado com sucesso!!";
+    } else {
+        $msg = "Falha ao enviar arquivo.";
+    }
+
+    //erro
+    if ($msg != false) {
+        echo "<p>$msg</p>";
+    }
+}
+
+  /*if (isset($_FILES['imagem'])){
     $imagem=($_FILES['imagem']);
     
     if($imagem != "none"){
@@ -23,14 +46,6 @@
         $conteudo = fread($fp, $tamanho);
         $conteudo = addslashes($conteudo);
         fclose($fp);
-
-        echo $imagem;
-        echo "<br>";
-        echo $tamanho;
-        echo "<br>";
-        echo $tipo;
-        echo "<br>";
-        echo $emaillogin;
 
         $sql= mysqli_query($bdOpen,"SELECT id FROM usuario WHERE email='$emaillogin'");
         $row= mysqli_fetch_array($sql);
@@ -49,5 +64,5 @@
         //        location.replace('../perfil.php');
         //        </script>";
     }
-  }
+  }*/
 ?>
