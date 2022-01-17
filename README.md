@@ -10,6 +10,7 @@
 
 ## 🚀 Tecnologias
 
+Criptografia usada: hash md5;
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ![HTML](https://img.shields.io/badge/-HTML-FFDAB9?style=for-the-badge&logo=HTML5&logoColor=html)&nbsp;
@@ -21,11 +22,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Site desenvolvido por mim para um projeto escolar, site de vendas de fantasias para pets.
 
+ENG
+
 Website developed by me for a school project. It's a shopping website for pet costumes.
 
-Criptografia usada: hash md5;
-
-On progress...
+## 🌻 On progress...
 
 adicionar a pfp no perfil no bd.
 adicionar a pfp no perfil a partir do bd.
@@ -33,17 +34,17 @@ criar botao de logout
 mexer na tela sobre
 
 -------------------
- Utilize filtro de validação nos campos das telas de consulta.
- Armazene mensagens de erro num array.
- (???????) O nome do usuário não deve ser armazenado na sessão. O nome do usuário deve ser consultado a partir do código do usuário armazenado na sessão.
- Crie uma tela que realize download de arquivo.
+ Utilize filtro de validação nos campos das telas de consulta.<br>
+ Armazene mensagens de erro num array.<br>
+ (???????) O nome do usuário não deve ser armazenado na sessão. O nome do usuário deve ser consultado a partir do código do usuário armazenado na sessão.<br>
+ Crie uma tela que realize download de arquivo.<br>
 
-Telas de form - 
-1- Cadastro cliente (ok)
-2- Meus endereços
-3- 
-
-Tela de consulta -
-1- Perfil (CRUD ok)
-2- Meus pedidos
+Telas de form - <br>
+1- Cadastro cliente (ok)<br>
+2- Meus endereços<br>
+3- <br>
+<br>
+Tela de consulta -<br>
+1- Perfil (CRUD ok)<br>
+2- Meus pedidos<br>
 3- Editar endereços
