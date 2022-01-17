@@ -39,15 +39,21 @@
       }
     </script>
     <script>
+      function gotoProfile(){
+        location.replace('perfil.php');
+      }
+
       function bemvindo(){
         var login = "<?php print_r($name['name']) ?>";
         document.getElementById('ini').innerHTML='Olá, '+login;
         document.getElementById('fontcadastro').innerHTML='';
+        document.getElementById('loginbtn').setAttribute('onclick','gotoProfile()');
       }
-      function logout(){
+      function deslogado(){
         document.getElementById('ini').innerHTML='Olá, Entre aqui';
         document.getElementById('fontcadastro').innerHTML=' ou faça seu cadastro';
       }
+      
   </script>
       
 </head>
@@ -66,7 +72,7 @@
       <div class="align-right"><button id="loginbtn" style="position:static;" class="buttonlogin" onclick="openForm()"><span id="ini">Olá, Entre aqui</span><br><span id="fontcadastro"> ou faça seu cadastro</span> </button>
   <!-------------------- Form Login -------------------->
       <div class="form-popup" id="myForm">
-        <form action="" class="form-container">
+        <form action="templates/login.php" class="form-container">
           <p class="logintext">Login</p>
           <p style="float: left;">
           <label for="email" style="float: left;">Email</label>
@@ -90,7 +96,7 @@
     echo "<script>bemvindo();</script>";
   }
   else{
-    echo "<script>logout();</script>";
+    echo "<script>deslogado();</script>";
   }
 ?>
 <body>

@@ -1,4 +1,5 @@
 <!----------------------- Header ----------------------->
+
 <?php
   include_once('templates/header.php');
   $user=$_SESSION['login'];
@@ -27,13 +28,17 @@
           <p class="user" id="email_user" style="font-size:20px;"></p>
           <p class="user" id="tel_user" style="font-size:20px;"></p>
         </div>
-        <button class="btn2" onclick="location.href='edicao_perfil.php'">Editar meu perfil</button>
+        <button class="btn2" onclick="location.href='edicao_perfil.php'">Editar meu perfil</button><br>
+        <form action="templates/logout.php">
+        <button type="submit" class="btn2">Sair da minha conta</button>
+      </form>
       </div>
       </center>
   </div>
 <!----------------------- Footer ----------------------->
   <?php
     include_once('templates/footer.php');
+
   ?>
 
 <!----------------------- Script ----------------------->
@@ -42,5 +47,4 @@
   document.getElementById('email_user').innerHTML="<?php echo $_SESSION['login']; ?>";  
   document.getElementById('tel_user').innerHTML="<?php print_r($tel['phone']) ?>";
   document.getElementById('avatar').innerHTML="<?php echo "<img class='avatar' src='$pfp'>" ?>";
-  
 </script>

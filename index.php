@@ -9,7 +9,7 @@
         <div class="banner">
           <p>
             <span class="titulo">Fantasias estilosas para<br>seus pets<br></span><span class="subtitulo"><br>De acessórios a roupinhas. Vem dar<br> uma olhadinha.<br>
-            <button class="button" onclick="window.location.href='sobre.php'" style="float: left;font-size: 40px;font-family: 'Playfair Display',Arial, Helvetica, sans-serif;width: 220px;"><span>Veja mais</span></button></span>
+            <button class="bigbtn" onclick="window.location.href='index.php#produtos'"><span>Veja mais</span></button></span>
           </p>
         <img class="itemimg" src="imagens/pngegg (11).png" style="width: 50%; float: right; padding-right: 100px; padding-top: 20px;"></div>
   <!--------------------- Fantasias --------------------->

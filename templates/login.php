@@ -27,7 +27,7 @@
                 $id= mysqli_fetch_array($sql);
                 $name=$id['name'];
                 $_SESSION['name'] = $name;
-                echo "<script>location.replace('perfil.php');</script>";
+                echo "<script>location.replace('../perfil.php');</script>";
             }
             else {
                 // senha ou usuario nao confere
@@ -35,7 +35,6 @@
                 $response["error"] = "senha não confere";
                 $_SESSION['login']= 0;
                 $_SESSION['id']=0;
-                $_SESSION['senha']=0;
                 $_SESSION['name']=0;
                 echo "<script>alert('senha não confere'); location.replace(history.back()); </script>";
             }
@@ -45,7 +44,6 @@
                 $response["error"] = "usuario não confere";
                 $_SESSION['login']= 0;
                 $_SESSION['id']=0;
-                $_SESSION['senha']=0;
                 $_SESSION['name']=0;
                 echo "<script> alert('usuario não confere'); location.replace(history.back()); </script>";
             }
