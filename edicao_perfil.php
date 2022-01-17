@@ -8,7 +8,7 @@
         <form class="form-container" enctype="multipart/form-data" action="templates/upload.php" method="post">
           <p><label for="email" style="float: left;">Nova foto de perfil</label></p>    
           <input type="hidden" name="MAX_FILE_SIZE" value="99999999"/>
-          <input name="imagem" class="btn" type="file"/>
+          <input name="arquivo" class="btn" type="file"/>
           <p style="margin-top: 0px;">
             <label for="email" style="float: left;">Nome Completo</label>
             <input type="text" placeholder="Insira seu nome completo" name="name" required>

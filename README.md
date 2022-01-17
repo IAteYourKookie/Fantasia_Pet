@@ -30,15 +30,10 @@ Website developed by me for a school project. It's a shopping website for pet co
 
 ## 🌻 On progress...
 
-adicionar a pfp no perfil no bd.<br>
-adicionar a pfp no perfil a partir do bd.<br>
 criar botao de logout<br>
 mexer na tela sobre<br>
 
  Utilize filtro de validação nos campos das telas de consulta.<br>
- Armazene mensagens de erro num array.<br>
- (???????) O nome do usuário não deve ser armazenado na sessão. O nome do usuário deve ser consultado a partir do código do usuário armazenado na sessão.<br>
- Crie uma tela que realize download de arquivo.<br>
 
 Telas de form - <br>
 1- Cadastro cliente (ok)<br>
