@@ -7,6 +7,7 @@ Criptografia usada: hash md5;
 
 On progress...
 
+adicionar a pfp no perfil no bd.
 adicionar a pfp no perfil a partir do bd.
 fazer o perfil (consultar, excluir e att dados do perfil)
 criar botao de logout

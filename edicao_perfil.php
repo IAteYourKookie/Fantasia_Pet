@@ -4,12 +4,18 @@
   ?>
 <!--------------------- Conteudo ---------------------->
   <div class="content">
-      <center><div style="padding-top: 20px;">
-      <form enctype="multipart/form-data" action="templates/upload.php" method="post">
+      <center><div>
+        <form class="form-container" enctype="multipart/form-data" action="templates/upload.php" method="post">
+          <p><label for="email" style="float: left;">Nova foto de perfil</label></p>    
           <input type="hidden" name="MAX_FILE_SIZE" value="99999999"/>
-          <div><input name="imagem" type="file"/></div>
-          <div><input type="submit" value="Salvar"/></div>
-      </form></div>
+          <input name="imagem" class="btn" style="margin-top:5px;" type="file"/>
+          <input type="submit" class="btn cancel" value="Salvar"/>
+          <p>
+            <label for="email" style="float: left;">Email</label>
+          </p>
+        </div>
+        </form>
+
       </center>
   </div>
 <!----------------------- Footer ----------------------->

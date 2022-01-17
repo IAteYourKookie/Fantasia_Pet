@@ -57,7 +57,7 @@
         </ul>
       </nav>
       </div>
-      <div class="align-right" style="position: relative; padding-right: 30px; left:55vw;"><button id="loginbtn" style="position:static;" class="buttonlogin" onclick="openForm()"><span id="ini" style="font-size:20px;" id="fontola">Olá, Entre aqui</span><br><span id="fontcadastro" style="font-size:15px; display: block; margin-top: 0px;"> ou faça seu cadastro</span> </button>
+      <div class="align-right"><button id="loginbtn" style="position:static;" class="buttonlogin" onclick="openForm()"><span id="ini">Olá, Entre aqui</span><br><span id="fontcadastro"> ou faça seu cadastro</span> </button>
   <!-------------------- Form Login -------------------->
       <div class="form-popup" id="myForm">
         <form action="" class="form-container">
@@ -67,7 +67,7 @@
           <input type="text" placeholder="Insira seu email" name="emaillogin" required>
           <label for="psw" style="float: left;">Senha</label>
           <input type="password" placeholder="Insira sua senha" name="pswlogin" required>
-          <a href="cadastro.php" style="font-size: small; color: slategrey; float:left; font-family: Arial, Helvetica, sans-serif;">Não é cadastrado ainda? Faça seu registro aqui.</a>  
+          <a href="cadastro.php" class="registro">Não é cadastrado ainda? Faça seu registro aqui.</a>  
           </p>
             
           <button type="submit" class="btn">Login</button>

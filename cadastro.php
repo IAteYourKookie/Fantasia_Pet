@@ -53,7 +53,7 @@
             <div class="content">
             <center><div>
                 <img class="boximgs" src="imagens/dog_PNG50375.png">
-                <form action="" class="form-container" style="background-color:#ffffff; float:center; margin-bottom: 30px;">
+                <form action="" class="form-container" >
                 <p class="logintext">Cadastro</p>
                 <p style="float: left;">
                     <label for="email" style="float: left;">Nome</label>
