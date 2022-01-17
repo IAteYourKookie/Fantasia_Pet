@@ -3,7 +3,10 @@
 <head>
 <!----------------------- PHP ----------------------->
   <?php
-  include_once("login.php");
+    include_once("login.php");
+    $user=$_SESSION['login'];
+    $name= mysqli_query($bdOpen,"SELECT name FROM usuario WHERE email='$user'");
+    $name = mysqli_fetch_array($name);
     ?>
 
   <!--------------------- HEAD ---------------------->
@@ -34,7 +37,7 @@
     </script>
     <script>
       function bemvindo(){
-        var login = "<?php echo $_SESSION['name']; ?>";
+        var login = "<?php print_r($name['name']) ?>";
         document.getElementById('ini').innerHTML='Olá, '+login;
         document.getElementById('fontcadastro').innerHTML='';
       }

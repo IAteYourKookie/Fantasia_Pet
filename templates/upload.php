@@ -5,10 +5,10 @@
   { 
       session_start(); 
   }
-  
-  echo "</br> <div>";
-  print_r($_SESSION);
-  echo "</div>" ;
+  $emaillogin = $_SESSION['login'];
+  $sql = mysqli_query($bdOpen,"SELECT id FROM usuario WHERE email='$emaillogin'");
+  $id= mysqli_fetch_array($sql);
+  $id=$id['id'];
 
   if (isset($_FILES['arquivo'])) {
     $msg = false;
@@ -31,7 +31,31 @@
     if ($msg != false) {
         echo "<p>$msg</p>";
     }
+}else{
+  if(isset($_REQUEST['email'])){
+    $email=$_REQUEST['email'];
+    $email=filter_var($email,FILTER_SANITIZE_EMAIL);
+    if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+      mysqli_query($bdOpen,"UPDATE usuario SET `email` = '$email' WHERE `usuario`.`id` = $id;");
+
+      $phone=($_REQUEST['tel']);
+      $phone=filter_var($phone, FILTER_SANITIZE_NUMBER_INT);
+      mysqli_query($bdOpen,"UPDATE usuario SET `phone` = '$phone' WHERE `usuario`.`id` = $id;");
+
+      $name=($_REQUEST['name']);
+      mysqli_query($bdOpen,"UPDATE usuario SET `name` = '$name' WHERE `usuario`.`id` = $id;");
+      echo("<script>alert('Perfil atualizado com sucesso');
+      location.replace('../perfil.php')
+      </script>");
+      
+    }else {
+      echo("<script>
+      location.replace('../edicao_perfil.php')
+      alert('$email não é um email valido.');</script>");
+    }
+  }
 }
+mysqli_close($bdOpen);
 
   /*if (isset($_FILES['imagem'])){
     $imagem=($_FILES['imagem']);

@@ -56,8 +56,8 @@
                 <form action="" class="form-container" >
                 <p class="logintext">Cadastro</p>
                 <p style="float: left;">
-                    <label for="email" style="float: left;">Nome</label>
-                <input type="text" placeholder="Insira seu nome completo" name="name" required>
+                <label for="email" style="float: left;">Nome Completo</label>
+                <input type="text" placeholder="Insira seu nome" name="name" required>
                 <label for="email" style="float: left;">Email</label>
                 <input type="text" placeholder="Insira seu email" name="email" required>
                 <label for="tel" style="float: left;">Telefone</label>

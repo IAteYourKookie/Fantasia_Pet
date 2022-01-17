@@ -3,7 +3,10 @@
   include_once('templates/header.php');
   $user=$_SESSION['login'];
   $tel= mysqli_query($bdOpen,"SELECT phone FROM usuario WHERE email='$user'");
-  $row = mysqli_fetch_array($tel);
+  $tel = mysqli_fetch_array($tel);
+
+  $name= mysqli_query($bdOpen,"SELECT name FROM usuario WHERE email='$user'");
+  $name = mysqli_fetch_array($name);
   ?>
 <!--------------------- Conteudo ---------------------->
   <div class="content">
@@ -25,7 +28,7 @@
 
 <!----------------------- Script ----------------------->
 <script>
-  document.getElementById('nome_user').innerHTML="<?php echo $_SESSION['name']; ?>";
+  document.getElementById('nome_user').innerHTML="<?php print_r($name['name']) ?>";
   document.getElementById('email_user').innerHTML="<?php echo $_SESSION['login']; ?>";  
-  document.getElementById('tel_user').innerHTML="<?php print_r($row['phone']) ?>";
+  document.getElementById('tel_user').innerHTML="<?php print_r($tel['phone']) ?>";
 </script>

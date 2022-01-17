@@ -9,7 +9,6 @@ On progress...
 
 adicionar a pfp no perfil no bd.
 adicionar a pfp no perfil a partir do bd.
-fazer o perfil (consultar, excluir e att dados do perfil)
 criar botao de logout
 mexer na tela sobre
 
@@ -20,11 +19,11 @@ mexer na tela sobre
  Crie uma tela que realize download de arquivo.
 
 Telas de form - 
-1- Cadastro cliente
+1- Cadastro cliente (ok)
 2-
 3-
 
 Tela de consulta -
-1- Perfil
+1- Perfil (CRUD ok)
 2-
 3-

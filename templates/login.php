@@ -36,7 +36,7 @@
                 $_SESSION['id']=0;
                 $_SESSION['senha']=0;
                 $_SESSION['name']=0;
-                echo "<script> alert('senha não confere') </script>";
+                echo "<script>alert('senha não confere'); location.replace(history.back()); </script>";
             }
         }else {
                 //usuario nao existe
@@ -46,7 +46,7 @@
                 $_SESSION['id']=0;
                 $_SESSION['senha']=0;
                 $_SESSION['name']=0;
-                echo "<script> alert('usuario não confere') </script>";
+                echo "<script> alert('usuario não confere'); location.replace(history.back()); </script>";
             }
         mysqli_close($bdOpen);
 
