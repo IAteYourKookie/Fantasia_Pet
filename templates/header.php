@@ -4,9 +4,12 @@
 <!----------------------- PHP ----------------------->
   <?php
     include_once("login.php");
-    $user=$_SESSION['login'];
-    $name= mysqli_query($bdOpen,"SELECT name FROM usuario WHERE email='$user'");
-    $name = mysqli_fetch_array($name);
+    if(!empty($_SESSION['login'])){
+      $user=$_SESSION['login'];
+      $name= mysqli_query($bdOpen,"SELECT name FROM usuario WHERE email='$user'");
+      $name = mysqli_fetch_array($name);
+    }
+    
     ?>
 
   <!--------------------- HEAD ---------------------->

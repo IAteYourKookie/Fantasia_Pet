@@ -5,6 +5,7 @@
     } 
     
     include('conexao.php');
+    
     if (isset($_REQUEST['emaillogin'])){
         $emaillogin=($_REQUEST['emaillogin']);
         $pswlogin=hash('md5',($_REQUEST['pswlogin']));
