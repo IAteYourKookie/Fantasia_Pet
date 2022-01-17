@@ -25,7 +25,11 @@
                             $response["error"] = "usuario ja cadastrado";
                             echo "<script>alert('Email já cadastrado');</script>";
                         } else {
-                            mysqli_query($bdOpen,"insert into usuario(name,email,phone,psw,pfp,id) values('$name','$email', '$phone', '$psw','',NULL)");
+                            mysqli_query($bdOpen,"insert into usuario(name,email,phone,psw,id) values('$name','$email', '$phone', '$psw',NULL)");
+                            $id= mysqli_query($bdOpen,"SELECT id FROM usuario WHERE email='$email'");
+                            $id = mysqli_fetch_array($id);
+                            $id=($id['id']);
+                            mysqli_query($bdOpen,"insert into imagem(dir_imagem,id_usuario,size,type) values('../../imagens/nouser.jpg','$id', '35437', 'image/jpeg')");
                             $response["success"] = 1;
                             echo "<script>alert('Cadastrado com sucesso');</script>";
                         }

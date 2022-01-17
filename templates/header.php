@@ -91,3 +91,4 @@
   }
 ?>
 <body>
+<button onclick="topFunction()" id="topBtn">Voltar ao topo</button>

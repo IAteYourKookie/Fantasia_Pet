@@ -27,7 +27,7 @@
           <th><p class="box"><img class="boximgs" src="imagens/pngegg (1).png"><br>Fantasia Homem Aranha<br><button class="button" style="vertical-align:middle"><span>Veja mais</span></button></p></th>
           </tr></table>
       </div>
-      <button onclick="topFunction()" id="topBtn">Voltar ao topo</button></div>
+      </div>
 
 <!----------------------- Footer ----------------------->
   <?php
