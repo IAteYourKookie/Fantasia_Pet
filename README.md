@@ -10,7 +10,7 @@
 
 ## 🚀 Tecnologias
 
-Criptografia usada: hash md5;
+Criptografia usada: hash md5;<br>
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ![HTML](https://img.shields.io/badge/-HTML-FFDAB9?style=for-the-badge&logo=HTML5&logoColor=html)&nbsp;
@@ -26,14 +26,15 @@ ENG
 
 Website developed by me for a school project. It's a shopping website for pet costumes.
 
+-------------------
+
 ## 🌻 On progress...
 
-adicionar a pfp no perfil no bd.
-adicionar a pfp no perfil a partir do bd.
-criar botao de logout
-mexer na tela sobre
+adicionar a pfp no perfil no bd.<br>
+adicionar a pfp no perfil a partir do bd.<br>
+criar botao de logout<br>
+mexer na tela sobre<br>
 
--------------------
  Utilize filtro de validação nos campos das telas de consulta.<br>
  Armazene mensagens de erro num array.<br>
  (???????) O nome do usuário não deve ser armazenado na sessão. O nome do usuário deve ser consultado a partir do código do usuário armazenado na sessão.<br>
