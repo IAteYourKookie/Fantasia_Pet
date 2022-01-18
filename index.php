@@ -15,16 +15,16 @@
   <!--------------------- Fantasias --------------------->
       <div class="contentbody" id="produtos">
         <table><tr>
-          <th><p class="box"><img class="boximgs" src="imagens/pngegg(12).png"><br>Fantasia Elfo<br><button class="button" style="vertical-align:middle"><span>Veja mais</span></button></p></th>
-          <th><p class="box"><img class="boximgs" src="imagens/pngegg (8).png"><br>Fantasia Bombeiro<br><button class="button" style="vertical-align:middle"><span>Veja mais</span></button></p></th>
-          <th><p class="box"><img class="boximgs" src="imagens/pngegg.png"><br>Fantasia Sapo Rei<br><button class="button" style="vertical-align:middle"><span>Veja mais</span></button></p></th>
-          <th><p class="box"><img class="boximgs" src="imagens/pngegg (15).png"><br>Fantasia Presidiario<br><button class="button" style="vertical-align:middle"><span>Veja mais</span></button></p></th>
+          <th><p class="box"><img class="boximgs" src="imagens/produtos/elfo.png"><br>Fantasia Elfo<br><button class="button" style="vertical-align:middle"><span>Veja mais</span></button></p></th>
+          <th><p class="box"><img class="boximgs" src="imagens/produtos/bombeiro.png"><br>Fantasia Bombeiro<br><button class="button" style="vertical-align:middle"><span>Veja mais</span></button></p></th>
+          <th><p class="box"><img class="boximgs" src="imagens/produtos/reisapo.png"><br>Fantasia Rei Sapo<br><button class="button" style="vertical-align:middle"><span>Veja mais</span></button></p></th>
+          <th><p class="box"><img class="boximgs" src="imagens/produtos/prisioneiro.png"><br>Fantasia Presidiario<br><button class="button" style="vertical-align:middle"><span>Veja mais</span></button></p></th>
         </tr>
         <tr>
-          <th><p class="box"><img class="boximgs" src="imagens/pngegg (10).png"><br>Fantasia Escolar Rebeldes<br><button class="button" style="vertical-align:middle"><span>Veja mais</span></button></p></th>
-          <th><p class="box"><img class="boximgs" src="imagens/pngegg (7).png"><br>Fantasia Indiana Jones<br><button class="button" style="vertical-align:middle"><span>Veja mais</span></button></p></th>
-          <th><p class="box"><img class="boximgs" src="imagens/pngegg (17).png"><br>Fantasia Capitão America<br><button class="button" style="vertical-align:middle"><span>Veja mais</span></button></p></th>
-          <th><p class="box"><img class="boximgs" src="imagens/pngegg (1).png"><br>Fantasia Homem Aranha<br><button class="button" style="vertical-align:middle"><span>Veja mais</span></button></p></th>
+          <th><p class="box"><img class="boximgs" src="imagens/produtos/rebeldes.png"><br>Fantasia Escolar Rebeldes<br><button class="button" style="vertical-align:middle"><span>Veja mais</span></button></p></th>
+          <th><p class="box"><img class="boximgs" src="imagens/produtos/indianajones.png"><br>Fantasia Indiana Jones<br><button class="button" style="vertical-align:middle"><span>Veja mais</span></button></p></th>
+          <th><p class="box"><img class="boximgs" src="imagens/produtos/heroiamerica.png"><br>Fantasia Capitão America<br><button class="button" style="vertical-align:middle"><span>Veja mais</span></button></p></th>
+          <th><p class="box"><img class="boximgs" src="imagens/produtos/heroiaranha.png"><br>Fantasia Homem Aranha<br><button class="button" style="vertical-align:middle"><span>Veja mais</span></button></p></th>
           </tr></table>
       </div>
       </div>

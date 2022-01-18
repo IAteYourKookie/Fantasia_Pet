@@ -163,11 +163,50 @@ th{
   position: relative;
 }
 
+.boxp {
+  border-radius: 25px;
+  background: #EEECE0;
+  padding: 20px; 
+  width: 300px;
+  height: 420px;
+  font-size: 22px;
+  display:block;
+  justify-content:center;
+  align-items: center;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  color: #b37474;
+}
+.boxp1 {
+  padding: 5px;
+  padding-top: 10px;
+  font-size: 22px;
+  display:block;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  color: #b37474;
+}
+
+.boxp2 {
+  border-radius: 25px;
+  font-size: 20px;
+  display:block;
+  justify-content:center;
+  align-items: center;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  color:#db9d9d;
+}
+
 .boximgs{
   max-height: 250px;
   max-width: 250px;
   width: auto;
   height: auto;
+
 }
 
 /* Não mostrar scrollbar */
@@ -433,6 +472,55 @@ nav a:hover::before {
   color: #F2DBDB;
 }
 
+/* BOTOES CARRINHO */
+
+.buttoncarrinho {
+  display:initial;
+  border-radius: 4px;
+  background-color: #c28484;
+  border: none;
+  color: #f0dbdb;
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  position: flex;
+  vertical-align:middle;
+  vertical-align:middle;
+}
+
+.buttoncarrinho span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: #F2DBDB;
+}
+
+.buttoncarrinho span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  color: #F2DBDB;
+}
+
+.buttoncarrinho:hover span {
+  padding-right: 25px;
+  color: #F2DBDB;
+}
+
+.buttoncarrinho:hover span:after {
+  opacity: 1;
+  right: 0;
+  color: #F2DBDB;
+}
+
+
 /* BOTOES VEJA MAIS */
 
 .buttonlogin {
@@ -471,6 +559,7 @@ nav a:hover::before {
   margin: 5px;
   position: flex;
   vertical-align:middle;
+  vertical-align:middle
 }
 
 .button span {
@@ -639,3 +728,21 @@ body { font-family: sans-serif; }
   background-position: 50% 50%;
   border-radius: 5px;
 }
+
+#btnEmpty {
+	background-color: #ffffff;
+	border: #d00000 1px solid;
+	padding: 5px 10px;
+	color: #d00000;
+	float: right;
+	text-decoration: none;
+	border-radius: 3px;
+	margin: 10px 0px;
+}
+
+.product-quantity {
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: #E0E0E0 1px solid;
+}
+
