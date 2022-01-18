@@ -57,7 +57,7 @@
   </script>
       
 </head>
-<header style="top:3000px;">
+<header style="top:0px;">
   <!------------------Top Navigation Bar------------------>
       <div id="home"><h1 class="logo" id="logo"><img id="img" src="imagens/header.png" class="imgheader">Fantasia Pet</h1>
 
@@ -65,7 +65,7 @@
         <ul>
           <li><a id="menu" class="opc" href="index.php">Home</a></li>
           <li><a id="menu2" class="opc" href="sobre.php">Sobre</a></li>
-          <li><a id="menu3" class="opc" href="produtos.php">Produtos</a></li>
+          <li><a id="menu3" class="opc" href="cart.php">Produtos</a></li>
         </ul>
       </nav>
       </div>
