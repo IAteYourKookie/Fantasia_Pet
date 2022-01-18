@@ -31,6 +31,6 @@ function scrollFunction() {
 }
 </script>
 </body>
-  <!----------------------- Footer ---------------------->
+
 <footer>© Todos os direitos reservados<br>Lorena Teixeira de Almeida, 2021</footer>
 </html>
