@@ -608,14 +608,22 @@ nav a:hover::before {
   margin-right: 50px;
 }
 
-/* Add styles to the form container */
-.form-container {
+.container {
   max-width: 500px;
   border-radius: 25px;
   padding: 30px;
   background-color: white;
   float:center; 
   margin-bottom: 30px;
+  height: auto;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 500px;
+  border-radius: 25px;
+  background-color: white;
+  float:center; 
   height: auto;
 }
 

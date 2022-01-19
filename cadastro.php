@@ -57,6 +57,7 @@
             <div class="content">
             <center><div>
                 <img class="boximgs" src="imagens/dog_PNG50375.png">
+                <div class="form-container" style="padding:30px; margin-bottom:30px;">
                 <form action="" class="form-container">
                     <div>
                     <p class="logintext">Cadastro</p>
@@ -74,7 +75,7 @@
                     </p>
                         
                     <button type="submit" class="btn">Cadastrar</button>
-                </div>
+                </div></div>
                 </form>
             </div></div></center>
 

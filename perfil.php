@@ -21,7 +21,7 @@
   ?>
 <!--------------------- Conteudo ---------------------->
   <div class="content">
-      <center><div class="form-container" >
+      <center><div class="container" ><div class="form-container">
         <span id="avatar"></span>
         <div>
           <p class="user" id="nome_user" style="font-size:20px;"></p>
@@ -33,7 +33,7 @@
         <form action="templates/logout.php">
         <button type="submit" class="btn2">Sair da minha conta</button>
       </form>
-      </div>
+      </div></div>
       </center>
   </div>
 <!----------------------- Footer ----------------------->

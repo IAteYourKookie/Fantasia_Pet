@@ -4,7 +4,7 @@
   ?>
 <!--------------------- Conteudo ---------------------->
   <div class="content">
-      <center><div>
+      <center><div class="container">
         <form class="form-container" enctype="multipart/form-data" action="templates/upload.php" method="post">
           <p><label for="email" style="float: left;">Nova foto de perfil</label></p>    
           <input type="hidden" name="MAX_FILE_SIZE" value="99999999"/>
@@ -18,8 +18,11 @@
             <input type="text" placeholder="Insira seu numero de celular" name="tel" required>
           </p>
           <input type="submit" class="btn cancel" value="Salvar Alterações"/>
-        </form></div>
-
+        </form>
+        <form class="form-container" enctype="multipart/form-data" action="templates/excluir.php" method="post">
+        <input type="submit" class="btn cancel" value="Excluir usuario"/>
+        </form>
+      </div>
       </center>
   </div>
 <!----------------------- Footer ----------------------->

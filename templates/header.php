@@ -72,7 +72,7 @@
       <div class="align-right"><button id="loginbtn" style="position:static;" class="buttonlogin" onclick="openForm()"><span id="ini">Olá, Entre aqui</span><br><span id="fontcadastro"> ou faça seu cadastro</span> </button>
   <!-------------------- Form Login -------------------->
       <div class="form-popup" id="myForm">
-        <form action="templates/login.php" class="form-container">
+        <form action="templates/login.php" class="form-container" style="padding:30px; margin-bottom:30px;">
           <p class="logintext">Login</p>
           <p style="float: left;">
           <label for="email" style="float: left;">Email</label>
