@@ -57,22 +57,24 @@
             <div class="content">
             <center><div>
                 <img class="boximgs" src="imagens/dog_PNG50375.png">
-                <form action="" class="form-container" >
-                <p class="logintext">Cadastro</p>
-                <p style="float: left;">
-                <label for="email" style="float: left;">Nome Completo</label>
-                <input type="text" placeholder="Insira seu nome" name="name" required>
-                <label for="email" style="float: left;">Email</label>
-                <input type="text" placeholder="Insira seu email" name="email" required>
-                <label for="tel" style="float: left;">Telefone</label>
-                <input type="text" placeholder="Insira seu numero de celular" name="tel" required>
-                <label for="psw" style="float: left;">Senha</label>
-                <input type="password" placeholder="Insira sua senha" name="psw" required>
-                <label for="psw" style="float: left;">Confirmação senha</label>
-                <input type="password" placeholder="Confime sua senha" name="pswCheck" required>
-                </p>
-                    
-                <button type="submit" class="btn">Cadastrar</button>
+                <form action="" class="form-container">
+                    <div>
+                    <p class="logintext">Cadastro</p>
+                    <p style="float: left;">
+                    <label for="name" style="float: left;">Nome Completo</label>
+                    <input type="text" placeholder="Insira seu nome" name="name" required>
+                    <label for="email" style="float: left;">Email</label>
+                    <input type="text" placeholder="Insira seu email" name="email" required>
+                    <label for="tel" style="float: left;">Telefone</label>
+                    <input type="text" placeholder="Insira seu numero de celular" name="tel" required>
+                    <label for="psw" style="float: left;">Senha</label>
+                    <input type="password" placeholder="Insira sua senha" name="psw" required>
+                    <label for="psw" style="float: left;">Confirmação senha</label>
+                    <input type="password" placeholder="Confime sua senha" name="pswCheck" required>
+                    </p>
+                        
+                    <button type="submit" class="btn">Cadastrar</button>
+                </div>
                 </form>
             </div></div></center>
 

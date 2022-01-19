@@ -29,6 +29,7 @@
           <p class="user" id="tel_user" style="font-size:20px;"></p>
         </div>
         <button class="btn2" onclick="location.href='edicao_perfil.php'">Editar meu perfil</button><br>
+        <button class="btn2" onclick="location.href='enderecos.php'">Meus endereços</button>
         <form action="templates/logout.php">
         <button type="submit" class="btn2">Sair da minha conta</button>
       </form>

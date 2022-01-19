@@ -28,19 +28,18 @@ Website developed by me for a school project. It's a shopping website for pet co
 
 -------------------
 
-## 🌻 On progress...
+## 🌻 A fazer...
 
-criar botao de logout<br>
-mexer na tela sobre<br>
-
- Utilize filtro de validação nos campos das telas de consulta.<br>
+- Atualizar layout da tela sobre<br>
+- Adicionar filtro de validação nos campos das telas de consulta.<br>
 
 Telas de form - <br>
 1- Cadastro cliente (ok)<br>
-2- Meus endereços<br>
+2- Cadastrar endereços<br>
 3- <br>
 <br>
 Tela de consulta -<br>
 1- Perfil (CRUD ok)<br>
 2- Meus pedidos<br>
-3- Editar endereços
+3- Meus endereços<br>
+4- Filtros na tela de produtos

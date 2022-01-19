@@ -65,7 +65,8 @@
             4. Encantamos nossos clientes;<br>
             5. Temos prazer em servir.<br>
             
-            *Praticamos os 5 valores todos os dias.</p>
+            *Praticamos os 5 valores todos os dias.<br>
+          Texto retirado do site da Petz com intuito de exemplificar.</p>
         </div></div></center></p>
 <!----------------------- Footer ----------------------->
   <?php
