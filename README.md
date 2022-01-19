@@ -35,7 +35,7 @@ Website developed by me for a school project. It's a shopping website for pet co
 
 Telas de form - <br>
 1- Cadastro cliente (ok)<br>
-2- Cadastrar endereços<br>
+2- Cadastrar endereços (ok)<br>
 3- <br>
 <br>
 Tela de consulta -<br>
