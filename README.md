@@ -8,6 +8,8 @@
 
 <br>
 
+![pagina inical](https://i.imgur.com/BxV3AGQ.jpg)
+
 ## 🚀 Tecnologias
 
 Criptografia usada: hash md5;<br>
@@ -20,11 +22,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
+PT BR
+
 Site desenvolvido por mim para um projeto escolar, site de vendas de fantasias para pets.
 
 ENG
 
-Website developed by me for a school project. It's a shopping website for pet costumes.
+Website developed by me for a school project. It's a shopping website where you can buy costumes for your pet.
+
+![carrinho](https://i.imgur.com/ysMj89e.jpg)
 
 -------------------
 
